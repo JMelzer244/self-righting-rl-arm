@@ -8,7 +8,7 @@ To close the sim-to-real gap, training uses domain randomization over mass, fric
 
 Sim rollout — the arm recovering from a fallen start:
 
-https://github.com/user-attachments/assets/8202d09b-0d75-4aae-b954-ff0e8793351b
+https://github.com/user-attachments/assets/a9ebcee9-5afd-484c-bca4-09199c4e258e
 
 ## How it works
 
