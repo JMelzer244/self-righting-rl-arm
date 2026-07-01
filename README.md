@@ -6,11 +6,11 @@ The policy learns entirely in simulation, then runs on-device as a hand-coded ML
 
 ## Demo
 
-| Simulation (MuJoCo) | Hardware (ESP32-S3) |
-|:---:|:---:|
-| ![sim rollout](rollout.mp4) | *(physical clip)* |
+**Simulation (MuJoCo)** — 2-DOF arm self-righting from a fallen pose:
 
-*Replace the hardware cell with your physical video once uploaded.*
+https://github.com/user-attachments/assets/8202d09b-0d75-4aae-b954-ff0e8793351b
+
+*(physical hardware clip coming soon)*
 
 ## How it works
 
