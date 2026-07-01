@@ -1,4 +1,4 @@
-# Self-righting rl arm
+# self-righting-rl-arm
 
 A 2-DOF arm that learns to right itself after being knocked over. The policy is trained with PPO in MuJoCo and deployed to an ESP32-S3 that drives the servos directly.
 
