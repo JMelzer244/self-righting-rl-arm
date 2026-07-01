@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/8202d09b-0d75-4aae-b954-ff0e8793351b
 ## Hardware
 
 - ESP32-S3
-- MG996R servos
+- 2 MG996R servos
 - MPU6050 IMU (I2C)
 - 2S LiPo → UBEC → 6V servo rail
 
