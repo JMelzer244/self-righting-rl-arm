@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape document_id: d16a7ad3a6969ce08f379fbc / workspace_id: fff984c4985b6255023a10c6 -->
+<mujoco model="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+  <compiler angle="radian" meshdir="assets" autolimits="true"/>
+  <default>
+    <default class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+      <joint frictionloss="0.1" armature="0.005"/>
+      <position kp="50" dampratio="1"/>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom group="3"/>
+      </default>
+    </default>
+  </default>
+  <worldbody>
+    <!-- Link part_1 -->
+    <body name="part_1" pos="0 0 0" quat="1 0 0 0" childclass="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+      <freejoint name="part_1_freejoint"/>
+      <inertial pos="0.000858202 -0.000117673 0.0191002" mass="0.29889" fullinertia="0.000631003 0.000581458 0.00104045 -2.39932e-05 -5.90275e-06 -1.2563e-05"/>
+      <!-- Part part_8 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_8" material="part_8_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_8" material="part_8_material"/>
+      <!-- Part part_2 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_2" material="part_2_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_2" material="part_2_material"/>
+      <!-- Part arm_2pad -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="arm_2pad" material="arm_2pad_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="arm_2pad" material="arm_2pad_material"/>
+      <!-- Part compound -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound" material="compound_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound" material="compound_material"/>
+      <!-- Part compound_2 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__2" material="compound__2_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__2" material="compound__2_material"/>
+      <!-- Part part_18 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_18" material="part_18_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_18" material="part_18_material"/>
+      <!-- Part part_38 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_38" material="part_38_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_38" material="part_38_material"/>
+      <!-- Part part_9 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_9" material="part_9_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_9" material="part_9_material"/>
+      <!-- Part base -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0.0005715" quat="1 -0 -0 -0" mesh="base" material="base_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0.0005715" quat="1 -0 -0 -0" mesh="base" material="base_material"/>
+      <!-- Part part_7 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_7" material="part_7_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_7" material="part_7_material"/>
+      <!-- Part compound_3 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__3" material="compound__3_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__3" material="compound__3_material"/>
+      <!-- Part compound_4 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__4" material="compound__4_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__4" material="compound__4_material"/>
+      <!-- Part compound_5 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__5" material="compound__5_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__5" material="compound__5_material"/>
+      <!-- Part compound_6 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__6" material="compound__6_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__6" material="compound__6_material"/>
+      <!-- Part compound_7 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__7" material="compound__7_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__7" material="compound__7_material"/>
+      <!-- Part part_11 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_11" material="part_11_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_11" material="part_11_material"/>
+      <!-- Part part_40 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_40" material="part_40_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_40" material="part_40_material"/>
+      <!-- Part part_3 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_3" material="part_3_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_3" material="part_3_material"/>
+      <!-- Part part_37 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_37" material="part_37_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_37" material="part_37_material"/>
+      <!-- Part part_6 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_6" material="part_6_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_6" material="part_6_material"/>
+      <!-- Part part_14 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_14" material="part_14_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_14" material="part_14_material"/>
+      <!-- Part part_10 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_10" material="part_10_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_10" material="part_10_material"/>
+      <!-- Part part_1 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_1" material="part_1_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_1" material="part_1_material"/>
+      <!-- Part part_36 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_36" material="part_36_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_36" material="part_36_material"/>
+      <!-- Part part_19 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_19" material="part_19_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_19" material="part_19_material"/>
+      <!-- Part compound_8 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__8" material="compound__8_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__8" material="compound__8_material"/>
+      <!-- Part part_17 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_17" material="part_17_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_17" material="part_17_material"/>
+      <!-- Part part_1_2 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_1__2" material="part_1__2_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_1__2" material="part_1__2_material"/>
+      <!-- Part part_4 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_4" material="part_4_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_4" material="part_4_material"/>
+      <!-- Part part_2_2 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_2__2" material="part_2__2_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="part_2__2" material="part_2__2_material"/>
+      <!-- Part part_5 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_5" material="part_5_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_5" material="part_5_material"/>
+      <!-- Part part_13 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_13" material="part_13_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_13" material="part_13_material"/>
+      <!-- Part part_16 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_16" material="part_16_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_16" material="part_16_material"/>
+      <!-- Part part_12 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_12" material="part_12_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_12" material="part_12_material"/>
+      <!-- Part compound_9 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__9" material="compound__9_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__9" material="compound__9_material"/>
+      <!-- Part part_15 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_15" material="part_15_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 -0" quat="1 0 -0 -0" mesh="part_15" material="part_15_material"/>
+      <!-- Part compound_10 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__10" material="compound__10_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__10" material="compound__10_material"/>
+      <!-- Part compound_11 -->
+      <geom type="mesh" class="visual" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__11" material="compound__11_material"/>
+      <geom type="mesh" class="collision" pos="8.3069e-05 0.000147404 0" quat="1 0 0 0" mesh="compound__11" material="compound__11_material"/>
+      <!-- Link part_15 -->
+      <body name="part_15" pos="0.0220831 0.0281474 0.0435" quat="0.5 0.5 0.5 0.5">
+        <!-- Joint from part_1 to part_15 -->
+        <joint axis="0 0 1" name="roll1" type="hinge" range="-1.5707963267948966 1.5707963267948966"/>
+        <inertial pos="0.00370628 0.0487748 -0.0266201" mass="0.133029" fullinertia="0.000125307 6.21771e-05 0.000111254 -6.03696e-06 -1.29171e-06 -1.23488e-05"/>
+        <!-- Part compound_12 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__12" material="compound__12_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__12" material="compound__12_material"/>
+        <!-- Part part_19_2 -->
+        <geom type="mesh" class="visual" pos="-0.0415 0.0290762 0.004" quat="0.707107 -0.707107 0 0" mesh="part_19" material="part_19_material"/>
+        <geom type="mesh" class="collision" pos="-0.0415 0.0290762 0.004" quat="0.707107 -0.707107 0 0" mesh="part_19" material="part_19_material"/>
+        <!-- Part compound_13 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__13" material="compound__13_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__13" material="compound__13_material"/>
+        <!-- Part compound_14 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__14" material="compound__14_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__14" material="compound__14_material"/>
+        <!-- Part compound_15 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__15" material="compound__15_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__15" material="compound__15_material"/>
+        <!-- Part arm_2pad_2 -->
+        <geom type="mesh" class="visual" pos="0.0364 0.0726143 -0.024" quat="0.5 0.5 0.5 0.5" mesh="arm_2pad__2" material="arm_2pad__2_material"/>
+        <geom type="mesh" class="collision" pos="0.0364 0.0726143 -0.024" quat="0.5 0.5 0.5 0.5" mesh="arm_2pad__2" material="arm_2pad__2_material"/>
+        <!-- Part part_2_3 -->
+        <geom type="mesh" class="visual" pos="0.00250001 0.0290762 -0.052" quat="0 -0 -0.707107 -0.707107" mesh="part_2__2" material="part_2__2_material"/>
+        <geom type="mesh" class="collision" pos="0.00250001 0.0290762 -0.052" quat="0 -0 -0.707107 -0.707107" mesh="part_2__2" material="part_2__2_material"/>
+        <!-- Part compound_16 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__16" material="compound__16_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__16" material="compound__16_material"/>
+        <!-- Part compound_17 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__17" material="compound__17_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__17" material="compound__17_material"/>
+        <!-- Part part_15_2 -->
+        <geom type="mesh" class="visual" pos="-0.028 -0.0435 -0.022" quat="0.5 -0.5 -0.5 -0.5" mesh="part_15__2" material="part_15__2_material"/>
+        <geom type="mesh" class="collision" pos="-0.028 -0.0435 -0.022" quat="0.5 -0.5 -0.5 -0.5" mesh="part_15__2" material="part_15__2_material"/>
+        <!-- Part compound_18 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__18" material="compound__18_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__18" material="compound__18_material"/>
+        <!-- Part compound_19 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__19" material="compound__19_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__19" material="compound__19_material"/>
+        <!-- Part compound_20 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__20" material="compound__20_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__20" material="compound__20_material"/>
+        <!-- Part compound_21 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__21" material="compound__21_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__21" material="compound__21_material"/>
+        <!-- Part part_35 -->
+        <geom type="mesh" class="visual" pos="-0.028 -0.0435 -0.022" quat="0.5 -0.5 -0.5 -0.5" mesh="part_35" material="part_35_material"/>
+        <geom type="mesh" class="collision" pos="-0.028 -0.0435 -0.022" quat="0.5 -0.5 -0.5 -0.5" mesh="part_35" material="part_35_material"/>
+        <!-- Part compound_22 -->
+        <geom type="mesh" class="visual" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__22" material="compound__22_material"/>
+        <geom type="mesh" class="collision" pos="0.0215 0.0725762 -0.024" quat="0.5 0.5 0.5 0.5" mesh="compound__22" material="compound__22_material"/>
+        <!-- Link part_2 -->
+        <body name="part_2" pos="-0.0195 0.0725762 -0.024" quat="0 0.707107 0 0.707107">
+          <!-- Joint from part_15 to part_2 -->
+          <joint axis="0 0 1" name="roll2" type="hinge" range="-1.5707963267948921 1.570796326794901"/>
+          <inertial pos="-4.82422e-05 -0.0652377 0.0296103" mass="0.0841997" fullinertia="0.000325687 3.7292e-05 0.000298461 -1.78608e-07 -8.769e-09 -1.23781e-05"/>
+          <!-- Part part_2_4 -->
+          <geom type="mesh" class="visual" pos="0.00489949 0.0405 -0.00110051" quat="0.707107 0.707107 0 0" mesh="part_2__3" material="part_2__3_material"/>
+          <geom type="mesh" class="collision" pos="0.00489949 0.0405 -0.00110051" quat="0.707107 0.707107 0 0" mesh="part_2__3" material="part_2__3_material"/>
+          <!-- Part part_15_3 -->
+          <geom type="mesh" class="visual" pos="-0.028 0.0435 0.022" quat="0.5 0.5 0.5 -0.5" mesh="part_15__3" material="part_15__3_material"/>
+          <geom type="mesh" class="collision" pos="-0.028 0.0435 0.022" quat="0.5 0.5 0.5 -0.5" mesh="part_15__3" material="part_15__3_material"/>
+          <!-- Part part_35_2 -->
+          <geom type="mesh" class="visual" pos="-0.028 0.0435 0.022" quat="0.5 0.5 0.5 -0.5" mesh="part_35" material="part_35_material"/>
+          <geom type="mesh" class="collision" pos="-0.028 0.0435 0.022" quat="0.5 0.5 0.5 -0.5" mesh="part_35" material="part_35_material"/>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <asset>
+    <mesh file="compound__9.stl"/>
+    <mesh file="compound__21.stl"/>
+    <mesh file="compound__13.stl"/>
+    <mesh file="part_15__2.stl"/>
+    <mesh file="part_1.stl"/>
+    <mesh file="part_12.stl"/>
+    <mesh file="part_3.stl"/>
+    <mesh file="part_2__3.stl"/>
+    <mesh file="part_2__2.stl"/>
+    <mesh file="part_4.stl"/>
+    <mesh file="compound__6.stl"/>
+    <mesh file="part_1__2.stl"/>
+    <mesh file="compound__20.stl"/>
+    <mesh file="compound__22.stl"/>
+    <mesh file="compound__16.stl"/>
+    <mesh file="part_11.stl"/>
+    <mesh file="compound__5.stl"/>
+    <mesh file="part_19.stl"/>
+    <mesh file="compound__7.stl"/>
+    <mesh file="part_7.stl"/>
+    <mesh file="arm_2pad.stl"/>
+    <mesh file="part_13.stl"/>
+    <mesh file="compound__3.stl"/>
+    <mesh file="compound__18.stl"/>
+    <mesh file="part_40.stl"/>
+    <mesh file="compound__2.stl"/>
+    <mesh file="part_8.stl"/>
+    <mesh file="part_2.stl"/>
+    <mesh file="compound.stl"/>
+    <mesh file="compound__12.stl"/>
+    <mesh file="compound__19.stl"/>
+    <mesh file="part_38.stl"/>
+    <mesh file="compound__8.stl"/>
+    <mesh file="part_17.stl"/>
+    <mesh file="compound__14.stl"/>
+    <mesh file="part_18.stl"/>
+    <mesh file="part_14.stl"/>
+    <mesh file="part_15.stl"/>
+    <mesh file="part_37.stl"/>
+    <mesh file="compound__15.stl"/>
+    <mesh file="arm_2pad__2.stl"/>
+    <mesh file="part_35.stl"/>
+    <mesh file="part_10.stl"/>
+    <mesh file="part_9.stl"/>
+    <mesh file="compound__4.stl"/>
+    <mesh file="compound__10.stl"/>
+    <mesh file="part_6.stl"/>
+    <mesh file="base.stl"/>
+    <mesh file="part_15__3.stl"/>
+    <mesh file="compound__11.stl"/>
+    <mesh file="part_5.stl"/>
+    <mesh file="part_36.stl"/>
+    <mesh file="part_16.stl"/>
+    <mesh file="compound__17.stl"/>
+    <material name="part_8_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_2_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="arm_2pad_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__2_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_18_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_38_material" rgba="0.901961 0.901961 0.901961 1"/>
+    <material name="part_9_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="base_material" rgba="0.529412 0.54902 0.54902 1"/>
+    <material name="part_7_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="compound__3_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__4_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__5_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__6_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__7_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_11_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_40_material" rgba="0.917647 0.917647 0.917647 1"/>
+    <material name="part_3_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_37_material" rgba="0.901961 0.901961 0.901961 1"/>
+    <material name="part_6_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_14_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_10_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_1_material" rgba="0.901961 0.901961 0.901961 1"/>
+    <material name="part_36_material" rgba="0.901961 0.901961 0.901961 1"/>
+    <material name="part_19_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="compound__8_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_17_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_1__2_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_4_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_2__2_material" rgba="0.647059 0.647059 0.647059 1"/>
+    <material name="part_5_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_13_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_16_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="part_12_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="compound__9_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_15_material" rgba="0.752941 0.752941 0.752941 1"/>
+    <material name="compound__10_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__11_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__12_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__13_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__14_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__15_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="arm_2pad__2_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__16_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__17_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_15__2_material" rgba="0.701961 0.701961 0.701961 1"/>
+    <material name="compound__18_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__19_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__20_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="compound__21_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_35_material" rgba="0.701961 0.701961 0.701961 1"/>
+    <material name="compound__22_material" rgba="0.0980392 0.0980392 0.0980392 1"/>
+    <material name="part_2__3_material" rgba="0.647059 0.647059 0.647059 1"/>
+    <material name="part_15__3_material" rgba="0.701961 0.701961 0.701961 1"/>
+  </asset>
+  <actuator>
+    <position class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot" name="roll1" joint="roll1" inheritrange="1"/>
+    <position class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot" name="roll2" joint="roll2" inheritrange="1"/>
+  </actuator>
+  <equality/>
+</mujoco>
