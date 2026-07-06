@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape document_id: d16a7ad3a6969ce08f379fbc / workspace_id: fff984c4985b6255023a10c6 -->
-<mujoco model="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+<mujoco model="selfright">
   <compiler angle="radian" meshdir="assets" autolimits="true"/>
   <default>
-    <default class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+    <default class="selfright">
       <joint frictionloss="0.1" armature="0.005"/>
       <position kp="50" dampratio="1"/>
       <default class="visual">
@@ -17,7 +17,7 @@
   </default>
   <worldbody>
     <!-- Link part_1 -->
-    <body name="part_1" pos="0 0 0" quat="1 0 0 0" childclass="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot">
+    <body name="part_1" pos="0 0 0" quat="1 0 0 0" childclass="selfright">
       <freejoint name="part_1_freejoint"/>
       <inertial pos="-0.00834191 -0.0149547 0.01684" mass="0.384307" fullinertia="0.000654743 0.000756731 0.00126745 -5.04461e-05 4.03583e-06 -4.38927e-05"/>
       <!-- Part part_8 -->
@@ -326,8 +326,8 @@
     <material name="part_15__3_material" rgba="0.701961 0.701961 0.701961 1"/>
   </asset>
   <actuator>
-    <position class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot" name="roll1" joint="roll1" inheritrange="1"/>
-    <position class="C:\Users\jack_\OneDrive - UW-Madison\Personal Projects\self-righting robot" name="roll2" joint="roll2" inheritrange="1"/>
+    <position class="selfright" name="roll1" joint="roll1" inheritrange="1"/>
+    <position class="selfright" name="roll2" joint="roll2" inheritrange="1"/>
   </actuator>
   <equality/>
 </mujoco>
