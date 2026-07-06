@@ -10,6 +10,10 @@ Sim rollout — the arm recovering from a fallen start:
 
 https://github.com/user-attachments/assets/8202d09b-0d75-4aae-b954-ff0e8793351b
 
+Hardware demo — the same policy righting the physical arm on the bench:
+
+https://github.com/user-attachments/assets/aba728d7-dcf0-422c-808a-b33264061ff1
+
 ## How it works
 
 - The arm is modeled in Onshape and exported to a MuJoCo model via `onshape-to-robot`, with per-part mass overrides so the simulated mass matches the printed hardware.
