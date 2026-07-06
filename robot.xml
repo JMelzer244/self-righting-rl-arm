@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
 <!-- Generated using onshape-to-robot -->
-<!-- Onshape document_id: d16a7ad3a6969ce08f379fbc / workspace_id: fff984c4985b6255023a10c6 -->
 <mujoco model="selfright">
   <compiler angle="radian" meshdir="assets" autolimits="true"/>
   <default>
